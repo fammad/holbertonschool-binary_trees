@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+#include <math.h>
 /**
  * binary_tree_is_perfect - Something usefull
  * @tree: Something more usefull
@@ -10,9 +11,10 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	size_t height, nodes;
 
 	height = binary_tree_height(tree);
+	height = pow(2, height) - 1;
 	nodes = binary_tree_size(tree);
 	if (tree == NULL)
-		return(0);
+		return (0);
 	if (height == nodes)
 	{
 		return (1);
