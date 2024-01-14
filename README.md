@@ -1,2 +1,10 @@
-# holbertonschool-binary_trees
-Holberton  School | Binary Trees
+This repository is dedicated to Holberton School "Binary Trees" tasks.
+Authors: Fuad Mammadov & Hasan Isgandarov
+
+Learning Objectives:
+What is a binary tree
+What is the difference between a binary tree and a Binary Search Tree
+What is the possible gain in terms of time complexity compared to linked lists
+What are the depth, the height, the size of a binary tree
+What are the different traversal methods to go through a binary tree
+What is a complete, a full, a perfect, a balanced binary tree
