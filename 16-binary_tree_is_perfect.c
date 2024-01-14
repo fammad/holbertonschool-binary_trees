@@ -9,7 +9,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	size_t height, nodes;
 
-	height = binary_tree_height(tree);
+	height = binary_tree_height(tree) + 1;
 	height = pow_hoqqa(2, height) - 1;
 	nodes = binary_tree_size(tree);
 	if (tree == NULL)
