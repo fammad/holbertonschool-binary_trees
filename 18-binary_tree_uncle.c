@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-/*
+/**
  *binary_tree_uncle - Finds the uncle of a node
  *@node: Main focus node
  *Return: Pointer to the uncle node
