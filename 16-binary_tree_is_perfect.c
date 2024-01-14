@@ -73,5 +73,5 @@ int pow_hoqqa(int a, int b)
 	{
 		res *= a;
 	}
-	return(res);
+	return (res);
 }
